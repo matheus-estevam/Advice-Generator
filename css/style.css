@@ -1,0 +1,61 @@
+body,
+ul,
+p,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #45553a;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.header {
+  max-width: 900px;
+  margin: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header h1 {
+  color: white;
+}
+
+.header button {
+  color: white;
+  background-color: #3d4c35;
+  border: #45553a;
+  border-radius: 5px;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+.advice-box {
+  background-color: #3d4c35;
+  padding: 150px;
+}
+
+.advice-text {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer img {
+  margin-top: 10px;
+}
